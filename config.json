@@ -1,7 +1,8 @@
 {
   "_uitleg": "Alle waarden hieronder zijn aannames, GEEN bevestigde Quiver-regels. Pas ze pas aan met bewijs (Premium-exports).",
   "windowDays": 90,
-  "amountMapping": "mid",
+  "amountMapping": "low",
+  "parameterStatus": "indicatief gekalibreerd op 1 ongedateerde Quiver-momentopname (top 4 binnen 0,1 pt); niet bevestigd",
   "assetTypes": ["ST"],
   "transactionTypes": ["P"],
   "maxWeight": 0.5,

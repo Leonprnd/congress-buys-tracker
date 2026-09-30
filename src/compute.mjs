@@ -51,7 +51,7 @@ const out = {
   sourceCheckedAt: house ? house.indexCheckedAt : null,
   coverage: { huis: chambers.has('Huis'), senaat: chambers.has('Senaat') },
   warnings,
-  parameters: { windowDays: cfg.windowDays, amountMapping: cfg.amountMapping, assetTypes: cfg.assetTypes, maxWeight: cfg.maxWeight, status: 'aannames, niet geverifieerd' },
+  parameters: { windowDays: cfg.windowDays, amountMapping: cfg.amountMapping, assetTypes: cfg.assetTypes, maxWeight: cfg.maxWeight, status: cfg.parameterStatus || 'aannames, niet geverifieerd' },
   stats: { tickers: result.tickerCount, transactions: result.transactionCount, duplicatesRemoved: result.duplicatesRemoved, totalAmount: result.totalAmount },
   stability: { variants: sens.length, sameTop2: sameTop2 },
   top2: result.positions.slice(0, 2),

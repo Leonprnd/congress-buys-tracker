@@ -26,7 +26,7 @@
 
 **Onbekend** (mijn standaardwaarden in `config.json` zijn aannames):
 1. Lengte van het venster (standaard 90 dagen). De 45 dagen zijn de meldtermijn, niet het venster.
-2. Bedrag per categorie (standaard midden van de categorie; `low`/`high` ook mogelijk).
+2. Bedrag per categorie: standaard nu de **onderkant** (`low`; `mid`/`high` ook mogelijk). Reden: een ongedateerd zoekresultaat met Quiver-wegingen (BE 50%, INTC 25,9%, FWONK 3,23%, LLY 2,5%) komt met onderkant en een venster van 80–90 dagen tot op 0,1 procentpunt uit de House-data. Dat is één momentopname zonder datum en nog geen bewijs; overfit-risico is er en bevestiging met Premium-cijfers blijft nodig.
 3. Welke assets tellen: standaard alleen aandelen (`ST`). Opties, obligaties, fondsen en ETF's zijn uitgesloten. Familiehandelingen (echtgenoot, kind, gezamenlijk) tellen mee, omdat Quiver "of familie" noemt.
 4. Selectie van posities en de precieze herverdeling boven 50% (hier: overschot naar rato over de rest, herhaald tot niets meer boven de limiet zit).
 5. Of de getoonde wegingen doelgewichten bij herbalancering zijn of actuele marktgewichten. Deze tracker toont **doelgewichten uit de aankoopbedragen**, geen marktwaarde.
