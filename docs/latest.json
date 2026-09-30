@@ -1,0 +1,178 @@
+{
+ "schema": 1,
+ "source": "Eigen berekening",
+ "disclaimer": "Eigen benadering op basis van officiële meldingen. GEEN officiële Quiver-ranglijst.",
+ "generatedAt": "2026-09-30T10:22:19.847Z",
+ "asOf": "2026-09-30",
+ "latestPublished": "2026-09-25",
+ "latestTrade": "2026-09-08",
+ "sourceCheckedAt": "2026-09-30T10:00:36.178Z",
+ "coverage": {
+  "huis": true,
+  "senaat": false
+ },
+ "warnings": [
+  "Senaat ontbreekt: alleen Huis-meldingen zijn meegeteld. De echte lijst bevat ook Senaatsaankopen.",
+  "40 House-melding(en) konden niet gelezen worden (gescand of fout); hun aankopen ontbreken."
+ ],
+ "parameters": {
+  "windowDays": 90,
+  "amountMapping": "mid",
+  "assetTypes": [
+   "ST"
+  ],
+  "maxWeight": 0.5,
+  "status": "aannames, niet geverifieerd"
+ },
+ "stats": {
+  "tickers": 119,
+  "transactions": 194,
+  "duplicatesRemoved": 7,
+  "totalAmount": 6714097
+ },
+ "stability": {
+  "variants": 15,
+  "sameTop2": 9
+ },
+ "top2": [
+  {
+   "ticker": "BE",
+   "company": "Bloom Energy Corporation",
+   "weight": 0.5,
+   "baseWeight": 0.5585264853933448,
+   "amount": 3750001,
+   "transactions": 2
+  },
+  {
+   "ticker": "INTC",
+   "company": "Intel Corporation",
+   "weight": 0.1265142053428773,
+   "baseWeight": 0.11170534176077587,
+   "amount": 750000.5,
+   "transactions": 1
+  }
+ ],
+ "positions": [
+  {
+   "ticker": "BE",
+   "company": "Bloom Energy Corporation",
+   "weight": 0.5,
+   "baseWeight": 0.5585264853933448,
+   "amount": 3750001,
+   "transactions": 2
+  },
+  {
+   "ticker": "INTC",
+   "company": "Intel Corporation",
+   "weight": 0.1265142053428773,
+   "baseWeight": 0.11170534176077587,
+   "amount": 750000.5,
+   "transactions": 1
+  },
+  {
+   "ticker": "FWONK",
+   "company": "Liberty Media Corporation",
+   "weight": 0.03694288241676395,
+   "baseWeight": 0.03261860828045827,
+   "amount": 219004.5,
+   "transactions": 9
+  },
+  {
+   "ticker": "LTH",
+   "company": "Life Time Group Holdings, Inc.",
+   "weight": 0.02994277175907943,
+   "baseWeight": 0.026437881371091303,
+   "amount": 177506.5,
+   "transactions": 13
+  },
+  {
+   "ticker": "CHRW",
+   "company": "C.H. Robinson Worldwide, Inc.",
+   "weight": 0.02319493025866916,
+   "baseWeight": 0.02047989476470179,
+   "amount": 137504,
+   "transactions": 8
+  },
+  {
+   "ticker": "HUBB",
+   "company": "Hubbell Inc",
+   "weight": 0.015013430739085423,
+   "baseWeight": 0.013256064069375226,
+   "amount": 89002.5,
+   "transactions": 5
+  },
+  {
+   "ticker": "MSFT",
+   "company": "Microsoft Corporation",
+   "weight": 0.012314294138921319,
+   "baseWeight": 0.010872869426819422,
+   "amount": 73001.5,
+   "transactions": 3
+  },
+  {
+   "ticker": "BWXT",
+   "company": "BWX Technologies, Inc.",
+   "weight": 0.009531067819665793,
+   "baseWeight": 0.008415428016604467,
+   "amount": 56502,
+   "transactions": 4
+  },
+  {
+   "ticker": "MLM",
+   "company": "Martin Marietta Materials, Inc.",
+   "weight": 0.009531067819665793,
+   "baseWeight": 0.008415428016604467,
+   "amount": 56502,
+   "transactions": 4
+  },
+  {
+   "ticker": "BRK.B",
+   "company": "Berkshire Hathaway Inc. New",
+   "weight": 0.009531067819665793,
+   "baseWeight": 0.008415428016604467,
+   "amount": 56502,
+   "transactions": 4
+  },
+  {
+   "ticker": "ALKS",
+   "company": "Alkermes plc",
+   "weight": 0.005482362919419633,
+   "baseWeight": 0.00484063605277076,
+   "amount": 32500.5,
+   "transactions": 1
+  },
+  {
+   "ticker": "MSB",
+   "company": "Mesabi Trust",
+   "weight": 0.005482362919419633,
+   "baseWeight": 0.00484063605277076,
+   "amount": 32500.5,
+   "transactions": 1
+  },
+  {
+   "ticker": "SFM",
+   "company": "Sprouts Farmers Market, Inc.",
+   "weight": 0.005482362919419633,
+   "baseWeight": 0.00484063605277076,
+   "amount": 32500.5,
+   "transactions": 1
+  },
+  {
+   "ticker": "ETN",
+   "company": "Eaton Corporation, PLC",
+   "weight": 0.005482362919419633,
+   "baseWeight": 0.00484063605277076,
+   "amount": 32500.5,
+   "transactions": 1
+  },
+  {
+   "ticker": "GMED",
+   "company": "Globus Medical, Inc.",
+   "weight": 0.005482362919419633,
+   "baseWeight": 0.00484063605277076,
+   "amount": 32500.5,
+   "transactions": 1
+  }
+ ],
+ "detailUrl": "https://leonprnd.github.io/congress-buys-tracker/"
+}

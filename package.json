@@ -1,0 +1,14 @@
+{
+  "name": "congress-buys-tracker",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Eigen benadering van een aankoopgewogen Congress-Buys-ranglijst op basis van officiële STOCK Act-meldingen",
+  "scripts": {
+    "fetch": "node src/fetch-house.mjs",
+    "compute": "node src/compute.mjs",
+    "update": "node src/fetch-house.mjs && node src/compute.mjs",
+    "test": "node src/test.mjs"
+  },
+  "dependencies": { "pdfjs-dist": "3.11.174" }
+}

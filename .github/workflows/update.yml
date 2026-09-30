@@ -1,0 +1,25 @@
+name: Dagelijkse update
+on:
+  schedule:
+    - cron: "30 6 * * *"      # dagelijks; GitHub kan enkele minuten tot uren vertragen
+  workflow_dispatch: {}
+permissions:
+  contents: write
+concurrency: update
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - run: npm ci || npm install
+      - run: npm test
+      - run: npm run update
+      - name: Opslaan
+        run: |
+          git config user.name "tracker-bot"
+          git config user.email "tracker-bot@users.noreply.github.com"
+          git add data docs
+          git diff --cached --quiet || git commit -m "Update $(date -u +%F)"
+          git push

@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Congress Buys eigen berekening</title>
+<style>
+:root{--bg:#f6f7f9;--fg:#1b2430;--mut:#5b6879;--card:#fff;--line:#dde2e9;--warn:#9a5b00;--bar:#2f8f66}
+@media (prefers-color-scheme:dark){:root{--bg:#14181f;--fg:#e8edf3;--mut:#8fa1b8;--card:#1c222c;--line:#2b3340;--warn:#ffb454;--bar:#4cc38a}}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.45 system-ui,sans-serif}
+main{max-width:720px;margin:0 auto;padding:16px}
+h1{font-size:1.3rem;margin:.2em 0}
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:12px 14px;margin:12px 0}
+.warn{color:var(--warn)}.mut{color:var(--mut);font-size:.9rem}
+table{width:100%;border-collapse:collapse}td,th{padding:6px 4px;border-bottom:1px solid var(--line);text-align:left}
+td:last-child,th:last-child{text-align:right}
+.bar{height:6px;background:var(--bar);border-radius:3px}
+</style>
+</head>
+<body>
+<main>
+<h1>Congress Buys — eigen berekening</h1>
+<p class="mut"><strong>Geen officiële Quiver-ranglijst.</strong> Eigen benadering op basis van officiële STOCK Act-meldingen; parameters zijn aannames.</p>
+<div id="app" class="card">Laden…</div>
+<p class="mut"><a href="latest.json">latest.json</a> · <a href="https://www.quiverquant.com/strategies/s/Congress%20Buys/">Quiver-strategiepagina</a></p>
+</main>
+<script>
+const pct = w => (w * 100).toFixed(1).replace('.', ',') + '%';
+const esc = s => String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+fetch('latest.json?t=' + Date.now()).then(r => r.json()).then(d => {
+  const rows = d.positions.map(p => `<tr><td>${esc(p.ticker)}</td><td>${esc(p.company)}<div class="bar" style="width:${Math.round(p.weight * 100)}%"></div></td><td>${pct(p.weight)}</td></tr>`).join('');
+  document.getElementById('app').innerHTML =
+    `<p class="mut">Peildatum ${esc(d.asOf)} · laatste publicatie in data ${esc(d.latestPublished || '—')} · berekend ${esc(d.generatedAt.slice(0, 16).replace('T', ' '))} UTC</p>` +
+    d.warnings.map(w => `<p class="warn">⚠ ${esc(w)}</p>`).join('') +
+    `<table><tr><th>Ticker</th><th>Bedrijf</th><th>Weging</th></tr>${rows}</table>` +
+    `<p class="mut">Venster ${d.parameters.windowDays} dagen op transactiedatum · bedrag: ${esc(d.parameters.amountMapping)} van de categorie · plafond ${d.parameters.maxWeight * 100}% (${esc(d.parameters.status)}). Top 2 gelijk in ${d.stability.sameTop2} van ${d.stability.variants} parametervarianten.</p>`;
+}).catch(() => { document.getElementById('app').textContent = 'Gegevens konden niet worden geladen.'; });
+</script>
+</body>
+</html>
