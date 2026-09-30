@@ -2,7 +2,7 @@
 // Toont de 2 grootste posities uit latest.json. GEEN officiële Quiver-ranglijst.
 // Zet hieronder je eigen adres. Tot dat is ingevuld toont de widget alleen een melding, nooit voorbeelddata.
 
-const DATA_URL = "https://JOUW-GEBRUIKERSNAAM.github.io/congress-buys-tracker/latest.json";
+const DATA_URL = "https://leonprnd.github.io/congress-buys-tracker/latest.json";
 const MAX_AGE_HOURS = 96;      // ouder dan dit = "verouderd"
 
 const fm = FileManager.local();
