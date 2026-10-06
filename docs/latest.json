@@ -2,11 +2,11 @@
  "schema": 1,
  "source": "Eigen berekening",
  "disclaimer": "Eigen benadering op basis van officiële meldingen. GEEN officiële Quiver-ranglijst.",
- "generatedAt": "2026-10-05T15:07:06.738Z",
- "asOf": "2026-10-05",
- "latestPublished": "2026-10-01",
+ "generatedAt": "2026-10-06T13:30:26.995Z",
+ "asOf": "2026-10-06",
+ "latestPublished": "2026-10-05",
  "latestTrade": "2026-09-22",
- "sourceCheckedAt": "2026-10-05T15:07:06.668Z",
+ "sourceCheckedAt": "2026-10-06T13:30:26.912Z",
  "coverage": {
   "huis": true,
   "senaat": false
@@ -25,7 +25,7 @@
   "status": "indicatief gekalibreerd op 1 ongedateerde Quiver-momentopname (top 4 binnen 0,1 pt); niet bevestigd"
  },
  "stats": {
-  "tickers": 120,
+  "tickers": 119,
   "transactions": 198,
   "duplicatesRemoved": 9,
   "totalAmount": 2587198
@@ -46,7 +46,7 @@
   {
    "ticker": "INTC",
    "company": "Intel Corporation",
-   "weight": 0.22994979746062427,
+   "weight": 0.2299497974606243,
    "baseWeight": 0.19325965774556103,
    "amount": 500001,
    "transactions": 1
@@ -64,7 +64,7 @@
   {
    "ticker": "INTC",
    "company": "Intel Corporation",
-   "weight": 0.22994979746062427,
+   "weight": 0.2299497974606243,
    "baseWeight": 0.19325965774556103,
    "amount": 500001,
    "transactions": 1
@@ -72,7 +72,7 @@
   {
    "ticker": "FWONK",
    "company": "Liberty Media Corporation",
-   "weight": 0.042774715874598655,
+   "weight": 0.04277471587459866,
    "baseWeight": 0.03594970311510754,
    "amount": 93009,
    "transactions": 9
@@ -80,7 +80,7 @@
   {
    "ticker": "LTH",
    "company": "Life Time Group Holdings, Inc.",
-   "weight": 0.025300405814591018,
+   "weight": 0.02530040581459102,
    "baseWeight": 0.021263544576023946,
    "amount": 55013,
    "transactions": 13
@@ -96,7 +96,7 @@
   {
    "ticker": "HUBB",
    "company": "Hubbell Inc",
-   "weight": 0.015178955772464264,
+   "weight": 0.015178955772464265,
    "baseWeight": 0.012757044493695496,
    "amount": 33005,
    "transactions": 5
@@ -104,7 +104,7 @@
   {
    "ticker": "MSFT",
    "company": "Microsoft Corporation",
-   "weight": 0.014718597198665242,
+   "weight": 0.014718597198665244,
    "baseWeight": 0.012370139432699006,
    "amount": 32004,
    "transactions": 4
@@ -112,7 +112,7 @@
   {
    "ticker": "BWXT",
    "company": "BWX Technologies, Inc.",
-   "weight": 0.008280015746930665,
+   "weight": 0.008280015746930667,
    "baseWeight": 0.006958879838342485,
    "amount": 18004,
    "transactions": 4
@@ -120,7 +120,7 @@
   {
    "ticker": "MLM",
    "company": "Martin Marietta Materials, Inc.",
-   "weight": 0.008280015746930665,
+   "weight": 0.008280015746930667,
    "baseWeight": 0.006958879838342485,
    "amount": 18004,
    "transactions": 4
@@ -128,7 +128,7 @@
   {
    "ticker": "BRK.B",
    "company": "Berkshire Hathaway Inc. New",
-   "weight": 0.008280015746930665,
+   "weight": 0.008280015746930667,
    "baseWeight": 0.006958879838342485,
    "amount": 18004,
    "transactions": 4
@@ -136,7 +136,7 @@
   {
    "ticker": "ALKS",
    "company": "Alkermes plc",
-   "weight": 0.006898940025533598,
+   "weight": 0.006898940025533599,
    "baseWeight": 0.005798164655353011,
    "amount": 15001,
    "transactions": 1
@@ -144,7 +144,7 @@
   {
    "ticker": "MSB",
    "company": "Mesabi Trust",
-   "weight": 0.006898940025533598,
+   "weight": 0.006898940025533599,
    "baseWeight": 0.005798164655353011,
    "amount": 15001,
    "transactions": 1
@@ -152,7 +152,7 @@
   {
    "ticker": "SFM",
    "company": "Sprouts Farmers Market, Inc.",
-   "weight": 0.006898940025533598,
+   "weight": 0.006898940025533599,
    "baseWeight": 0.005798164655353011,
    "amount": 15001,
    "transactions": 1
@@ -160,7 +160,7 @@
   {
    "ticker": "ETN",
    "company": "Eaton Corporation, PLC",
-   "weight": 0.006898940025533598,
+   "weight": 0.006898940025533599,
    "baseWeight": 0.005798164655353011,
    "amount": 15001,
    "transactions": 1
@@ -168,7 +168,7 @@
   {
    "ticker": "GMED",
    "company": "Globus Medical, Inc.",
-   "weight": 0.006898940025533598,
+   "weight": 0.006898940025533599,
    "baseWeight": 0.005798164655353011,
    "amount": 15001,
    "transactions": 1
