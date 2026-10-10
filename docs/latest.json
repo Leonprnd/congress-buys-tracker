@@ -2,18 +2,18 @@
  "schema": 1,
  "source": "Eigen berekening",
  "disclaimer": "Eigen benadering op basis van officiële meldingen. GEEN officiële Quiver-ranglijst.",
- "generatedAt": "2026-10-09T13:36:19.847Z",
- "asOf": "2026-10-09",
+ "generatedAt": "2026-10-10T12:52:58.434Z",
+ "asOf": "2026-10-10",
  "latestPublished": "2026-10-07",
  "latestTrade": "2026-09-22",
- "sourceCheckedAt": "2026-10-09T13:36:19.775Z",
+ "sourceCheckedAt": "2026-10-10T12:52:58.377Z",
  "coverage": {
   "huis": true,
   "senaat": false
  },
  "warnings": [
   "Senaat ontbreekt: alleen Huis-meldingen zijn meegeteld. De echte lijst bevat ook Senaatsaankopen.",
-  "42 House-melding(en) konden niet gelezen worden (gescand of fout); hun aankopen ontbreken."
+  "43 House-melding(en) konden niet gelezen worden (gescand of fout); hun aankopen ontbreken."
  ],
  "parameters": {
   "windowDays": 90,
