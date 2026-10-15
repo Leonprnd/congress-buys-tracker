@@ -2,11 +2,11 @@
  "schema": 1,
  "source": "Eigen berekening",
  "disclaimer": "Eigen benadering op basis van officiële meldingen. GEEN officiële Quiver-ranglijst.",
- "generatedAt": "2026-10-14T12:13:57.951Z",
- "asOf": "2026-10-14",
+ "generatedAt": "2026-10-15T11:54:59.242Z",
+ "asOf": "2026-10-15",
  "latestPublished": "2026-10-12",
  "latestTrade": "2026-10-08",
- "sourceCheckedAt": "2026-10-14T12:13:57.875Z",
+ "sourceCheckedAt": "2026-10-15T11:54:59.169Z",
  "coverage": {
   "huis": true,
   "senaat": false
@@ -25,10 +25,10 @@
   "status": "indicatief gekalibreerd op 1 ongedateerde Quiver-momentopname (top 4 binnen 0,1 pt); niet bevestigd"
  },
  "stats": {
-  "tickers": 123,
-  "transactions": 200,
+  "tickers": 116,
+  "transactions": 185,
   "duplicatesRemoved": 12,
-  "totalAmount": 2673200
+  "totalAmount": 2644185
  },
  "stability": {
   "variants": 15,
@@ -39,15 +39,15 @@
    "ticker": "BE",
    "company": "Bloom Energy Corporation",
    "weight": 0.5,
-   "baseWeight": 0.561125991321263,
+   "baseWeight": 0.5672833027946229,
    "amount": 1500002,
    "transactions": 2
   },
   {
    "ticker": "INTC",
    "company": "Intel Corporation",
-   "weight": 0.21309318631637608,
-   "baseWeight": 0.1870421218015861,
+   "weight": 0.2184969537215629,
+   "baseWeight": 0.1890945603276624,
    "amount": 500001,
    "transactions": 1
   }
@@ -57,119 +57,119 @@
    "ticker": "BE",
    "company": "Bloom Energy Corporation",
    "weight": 0.5,
-   "baseWeight": 0.561125991321263,
+   "baseWeight": 0.5672833027946229,
    "amount": 1500002,
    "transactions": 2
   },
   {
    "ticker": "INTC",
    "company": "Intel Corporation",
-   "weight": 0.21309318631637608,
-   "baseWeight": 0.1870421218015861,
+   "weight": 0.2184969537215629,
+   "baseWeight": 0.1890945603276624,
    "amount": 500001,
    "transactions": 1
   },
   {
    "ticker": "FWONK",
    "company": "Liberty Media Corporation",
-   "weight": 0.03963908905402155,
-   "baseWeight": 0.034793131827023795,
+   "weight": 0.04064428504880759,
+   "baseWeight": 0.03517492157318796,
    "amount": 93009,
    "transactions": 9
   },
   {
    "ticker": "LTH",
    "company": "Life Time Group Holdings, Inc.",
-   "weight": 0.023445744026157546,
-   "baseWeight": 0.020579455334430646,
-   "amount": 55013,
-   "transactions": 13
+   "weight": 0.023602867723082663,
+   "baseWeight": 0.02042670993141554,
+   "amount": 54012,
+   "transactions": 12
   },
   {
    "ticker": "CHRW",
    "company": "C.H. Robinson Worldwide, Inc.",
-   "weight": 0.02131268549724768,
-   "baseWeight": 0.01870716743977256,
+   "weight": 0.0218531476171206,
+   "baseWeight": 0.01891244372084404,
    "amount": 50008,
    "transactions": 8
   },
   {
-   "ticker": "MSFT",
-   "company": "Microsoft Corporation",
-   "weight": 0.014066253096237793,
-   "baseWeight": 0.012346625766871165,
-   "amount": 33005,
-   "transactions": 5
-  },
-  {
    "ticker": "HUBB",
    "company": "Hubbell Inc",
-   "weight": 0.014066253096237793,
-   "baseWeight": 0.012346625766871165,
+   "weight": 0.014422955069250228,
+   "baseWeight": 0.012482106963015068,
    "amount": 33005,
    "transactions": 5
   },
   {
-   "ticker": "BWXT",
-   "company": "BWX Technologies, Inc.",
-   "weight": 0.007673044106791857,
-   "baseWeight": 0.0067349992518330095,
+   "ticker": "MSFT",
+   "company": "Microsoft Corporation",
+   "weight": 0.007867622574360888,
+   "baseWeight": 0.006808903310471847,
    "amount": 18004,
    "transactions": 4
   },
   {
-   "ticker": "MLM",
-   "company": "Martin Marietta Materials, Inc.",
-   "weight": 0.007673044106791857,
-   "baseWeight": 0.0067349992518330095,
+   "ticker": "BWXT",
+   "company": "BWX Technologies, Inc.",
+   "weight": 0.007867622574360888,
+   "baseWeight": 0.006808903310471847,
    "amount": 18004,
    "transactions": 4
   },
   {
    "ticker": "BRK.B",
    "company": "Berkshire Hathaway Inc. New",
-   "weight": 0.007673044106791857,
-   "baseWeight": 0.0067349992518330095,
+   "weight": 0.007867622574360888,
+   "baseWeight": 0.006808903310471847,
    "amount": 18004,
    "transactions": 4
   },
   {
    "ticker": "SNOW",
    "company": "Snowflake Inc.",
-   "weight": 0.007246432401009884,
-   "baseWeight": 0.006360541672901392,
+   "weight": 0.007430192547870372,
+   "baseWeight": 0.0064303367578289715,
+   "amount": 17003,
+   "transactions": 3
+  },
+  {
+   "ticker": "MLM",
+   "company": "Martin Marietta Materials, Inc.",
+   "weight": 0.007430192547870372,
+   "baseWeight": 0.0064303367578289715,
    "amount": 17003,
    "transactions": 3
   },
   {
    "ticker": "ALKS",
    "company": "Alkermes plc",
-   "weight": 0.00681982069522791,
-   "baseWeight": 0.005986084093969774,
+   "weight": 0.006992762521379856,
+   "baseWeight": 0.006051770205186097,
    "amount": 16002,
    "transactions": 2
   },
   {
    "ticker": "GMED",
    "company": "Globus Medical, Inc.",
-   "weight": 0.00681982069522791,
-   "baseWeight": 0.005986084093969774,
+   "weight": 0.006992762521379856,
+   "baseWeight": 0.006051770205186097,
    "amount": 16002,
    "transactions": 2
   },
   {
    "ticker": "MOG.A",
    "company": "Moog Inc.",
-   "weight": 0.00681982069522791,
-   "baseWeight": 0.005986084093969774,
+   "weight": 0.006992762521379856,
+   "baseWeight": 0.006051770205186097,
    "amount": 16002,
    "transactions": 2
   },
   {
    "ticker": "NXPI",
    "company": "NXP Semiconductors N.V.",
-   "weight": 0.00681982069522791,
-   "baseWeight": 0.005986084093969774,
+   "weight": 0.006992762521379856,
+   "baseWeight": 0.006051770205186097,
    "amount": 16002,
    "transactions": 2
   }
