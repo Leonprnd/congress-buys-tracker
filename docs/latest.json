@@ -2,11 +2,11 @@
  "schema": 1,
  "source": "Eigen berekening",
  "disclaimer": "Eigen benadering op basis van officiële meldingen. GEEN officiële Quiver-ranglijst.",
- "generatedAt": "2026-10-21T12:10:51.630Z",
- "asOf": "2026-10-21",
+ "generatedAt": "2026-10-22T12:14:41.535Z",
+ "asOf": "2026-10-22",
  "latestPublished": "2026-10-19",
  "latestTrade": "2026-10-09",
- "sourceCheckedAt": "2026-10-21T12:10:51.552Z",
+ "sourceCheckedAt": "2026-10-22T12:14:41.481Z",
  "coverage": {
   "huis": true,
   "senaat": false
@@ -25,153 +25,153 @@
   "status": "indicatief gekalibreerd op 1 ongedateerde Quiver-momentopname (top 4 binnen 0,1 pt); niet bevestigd"
  },
  "stats": {
-  "tickers": 118,
-  "transactions": 180,
-  "duplicatesRemoved": 12,
-  "totalAmount": 2737180
+  "tickers": 114,
+  "transactions": 168,
+  "duplicatesRemoved": 10,
+  "totalAmount": 1171168
  },
  "stability": {
   "variants": 15,
-  "sameTop2": 9
+  "sameTop2": 3
  },
  "top2": [
   {
    "ticker": "BE",
    "company": "Bloom Energy Corporation",
-   "weight": 0.5,
-   "baseWeight": 0.5480099956889938,
-   "amount": 1500002,
-   "transactions": 2
-  },
-  {
-   "ticker": "INTC",
-   "company": "Intel Corporation",
-   "weight": 0.20207318591180937,
-   "baseWeight": 0.18267012034283459,
-   "amount": 500001,
-   "transactions": 1
-  }
- ],
- "positions": [
-  {
-   "ticker": "BE",
-   "company": "Bloom Energy Corporation",
-   "weight": 0.5,
-   "baseWeight": 0.5480099956889938,
-   "amount": 1500002,
-   "transactions": 2
-  },
-  {
-   "ticker": "INTC",
-   "company": "Intel Corporation",
-   "weight": 0.20207318591180937,
-   "baseWeight": 0.18267012034283459,
+   "weight": 0.4269250867510041,
+   "baseWeight": 0.4269250867510041,
    "amount": 500001,
    "transactions": 1
   },
   {
    "ticker": "FWONK",
    "company": "Liberty Media Corporation",
-   "weight": 0.031122037410946587,
-   "baseWeight": 0.028133699647082032,
-   "amount": 77007,
-   "transactions": 7
+   "weight": 0.052943727970709585,
+   "baseWeight": 0.052943727970709585,
+   "amount": 62006,
+   "transactions": 6
+  }
+ ],
+ "positions": [
+  {
+   "ticker": "BE",
+   "company": "Bloom Energy Corporation",
+   "weight": 0.4269250867510041,
+   "baseWeight": 0.4269250867510041,
+   "amount": 500001,
+   "transactions": 1
   },
   {
-   "ticker": "LTH",
-   "company": "Life Time Group Holdings, Inc.",
-   "weight": 0.021019610759324896,
-   "baseWeight": 0.019001307915445825,
-   "amount": 52010,
-   "transactions": 10
+   "ticker": "FWONK",
+   "company": "Liberty Media Corporation",
+   "weight": 0.052943727970709585,
+   "baseWeight": 0.052943727970709585,
+   "amount": 62006,
+   "transactions": 6
   },
   {
    "ticker": "DDOG",
    "company": "Datadog, Inc.",
-   "weight": 0.020207682322188118,
-   "baseWeight": 0.018267340839842466,
+   "weight": 0.042693277138719635,
+   "baseWeight": 0.042693277138719635,
    "amount": 50001,
    "transactions": 1
   },
   {
    "ticker": "EL",
    "company": "Estee Lauder Companies, Inc.",
-   "weight": 0.020207682322188118,
-   "baseWeight": 0.018267340839842466,
+   "weight": 0.042693277138719635,
+   "baseWeight": 0.042693277138719635,
    "amount": 50001,
    "transactions": 1
   },
   {
    "ticker": "CHRW",
    "company": "C.H. Robinson Worldwide, Inc.",
-   "weight": 0.019805961632036823,
-   "baseWeight": 0.017904193366895856,
-   "amount": 49007,
-   "transactions": 7
+   "weight": 0.04098984944943851,
+   "baseWeight": 0.04098984944943851,
+   "amount": 48006,
+   "transactions": 6
+  },
+  {
+   "ticker": "LTH",
+   "company": "Life Time Group Holdings, Inc.",
+   "weight": 0.031600077870980084,
+   "baseWeight": 0.031600077870980084,
+   "amount": 37009,
+   "transactions": 9
   },
   {
    "ticker": "BRK.B",
    "company": "Berkshire Hathaway Inc. New",
-   "weight": 0.007680786434935006,
-   "baseWeight": 0.006943277387676368,
+   "weight": 0.01622739009262548,
+   "baseWeight": 0.01622739009262548,
    "amount": 19005,
    "transactions": 5
   },
   {
-   "ticker": "MSFT",
-   "company": "Microsoft Corporation",
-   "weight": 0.00727623672583898,
-   "baseWeight": 0.0065775725381597115,
-   "amount": 18004,
-   "transactions": 4
-  },
-  {
-   "ticker": "BWXT",
-   "company": "BWX Technologies, Inc.",
-   "weight": 0.00727623672583898,
-   "baseWeight": 0.0065775725381597115,
-   "amount": 18004,
-   "transactions": 4
-  },
-  {
    "ticker": "HUBB",
    "company": "Hubbell Inc",
-   "weight": 0.00727623672583898,
-   "baseWeight": 0.0065775725381597115,
+   "weight": 0.015372687778354599,
+   "baseWeight": 0.015372687778354599,
    "amount": 18004,
    "transactions": 4
+  },
+  {
+   "ticker": "MSFT",
+   "company": "Microsoft Corporation",
+   "weight": 0.014517985464083718,
+   "baseWeight": 0.014517985464083718,
+   "amount": 17003,
+   "transactions": 3
   },
   {
    "ticker": "SNOW",
    "company": "Snowflake Inc.",
-   "weight": 0.0068716870167429564,
-   "baseWeight": 0.006211867688643056,
+   "weight": 0.014517985464083718,
+   "baseWeight": 0.014517985464083718,
    "amount": 17003,
    "transactions": 3
   },
   {
    "ticker": "ALKS",
    "company": "Alkermes plc",
-   "weight": 0.006467137307646933,
-   "baseWeight": 0.0058461628391264005,
+   "weight": 0.013663283149812836,
+   "baseWeight": 0.013663283149812836,
    "amount": 16002,
    "transactions": 2
   },
   {
    "ticker": "GMED",
    "company": "Globus Medical, Inc.",
-   "weight": 0.006467137307646933,
-   "baseWeight": 0.0058461628391264005,
+   "weight": 0.013663283149812836,
+   "baseWeight": 0.013663283149812836,
    "amount": 16002,
    "transactions": 2
   },
   {
    "ticker": "MOG.A",
    "company": "Moog Inc.",
-   "weight": 0.006467137307646933,
-   "baseWeight": 0.0058461628391264005,
+   "weight": 0.013663283149812836,
+   "baseWeight": 0.013663283149812836,
    "amount": 16002,
    "transactions": 2
+  },
+  {
+   "ticker": "NXPI",
+   "company": "NXP Semiconductors N.V.",
+   "weight": 0.013663283149812836,
+   "baseWeight": 0.013663283149812836,
+   "amount": 16002,
+   "transactions": 2
+  },
+  {
+   "ticker": "MSB",
+   "company": "Mesabi Trust",
+   "weight": 0.012808580835541955,
+   "baseWeight": 0.012808580835541955,
+   "amount": 15001,
+   "transactions": 1
   }
  ],
  "detailUrl": "https://leonprnd.github.io/congress-buys-tracker/"
