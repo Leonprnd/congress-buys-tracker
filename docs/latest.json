@@ -2,18 +2,18 @@
  "schema": 1,
  "source": "Eigen berekening",
  "disclaimer": "Eigen benadering op basis van officiële meldingen. GEEN officiële Quiver-ranglijst.",
- "generatedAt": "2026-10-25T11:54:35.348Z",
- "asOf": "2026-10-25",
+ "generatedAt": "2026-10-26T13:25:56.288Z",
+ "asOf": "2026-10-26",
  "latestPublished": "2026-10-22",
  "latestTrade": "2026-10-09",
- "sourceCheckedAt": "2026-10-25T11:54:35.287Z",
+ "sourceCheckedAt": "2026-10-26T13:25:56.228Z",
  "coverage": {
   "huis": true,
   "senaat": false
  },
  "warnings": [
   "Senaat ontbreekt: alleen Huis-meldingen zijn meegeteld. De echte lijst bevat ook Senaatsaankopen.",
-  "43 House-melding(en) konden niet gelezen worden (gescand of fout); hun aankopen ontbreken."
+  "42 House-melding(en) konden niet gelezen worden (gescand of fout); hun aankopen ontbreken."
  ],
  "parameters": {
   "windowDays": 90,
@@ -25,151 +25,151 @@
   "status": "indicatief gekalibreerd op 1 ongedateerde Quiver-momentopname (top 4 binnen 0,1 pt); niet bevestigd"
  },
  "stats": {
-  "tickers": 114,
-  "transactions": 167,
+  "tickers": 112,
+  "transactions": 160,
   "duplicatesRemoved": 12,
-  "totalAmount": 1156167
+  "totalAmount": 622160
  },
  "stability": {
   "variants": 15,
-  "sameTop2": 3
+  "sameTop2": 7
  },
  "top2": [
   {
-   "ticker": "BE",
-   "company": "Bloom Energy Corporation",
-   "weight": 0.4324643412240619,
-   "baseWeight": 0.4324643412240619,
-   "amount": 500001,
-   "transactions": 1
-  },
-  {
-   "ticker": "FWONK",
-   "company": "Liberty Media Corporation",
-   "weight": 0.05363066062255712,
-   "baseWeight": 0.05363066062255712,
-   "amount": 62006,
-   "transactions": 6
-  }
- ],
- "positions": [
-  {
-   "ticker": "BE",
-   "company": "Bloom Energy Corporation",
-   "weight": 0.4324643412240619,
-   "baseWeight": 0.4324643412240619,
-   "amount": 500001,
-   "transactions": 1
-  },
-  {
-   "ticker": "FWONK",
-   "company": "Liberty Media Corporation",
-   "weight": 0.05363066062255712,
-   "baseWeight": 0.05363066062255712,
-   "amount": 62006,
-   "transactions": 6
-  },
-  {
    "ticker": "DDOG",
    "company": "Datadog, Inc.",
-   "weight": 0.04324721255666353,
-   "baseWeight": 0.04324721255666353,
+   "weight": 0.08036678667866787,
+   "baseWeight": 0.08036678667866787,
    "amount": 50001,
    "transactions": 1
   },
   {
    "ticker": "EL",
    "company": "Estee Lauder Companies, Inc.",
-   "weight": 0.04324721255666353,
-   "baseWeight": 0.04324721255666353,
+   "weight": 0.08036678667866787,
+   "baseWeight": 0.08036678667866787,
+   "amount": 50001,
+   "transactions": 1
+  }
+ ],
+ "positions": [
+  {
+   "ticker": "DDOG",
+   "company": "Datadog, Inc.",
+   "weight": 0.08036678667866787,
+   "baseWeight": 0.08036678667866787,
    "amount": 50001,
    "transactions": 1
   },
   {
+   "ticker": "EL",
+   "company": "Estee Lauder Companies, Inc.",
+   "weight": 0.08036678667866787,
+   "baseWeight": 0.08036678667866787,
+   "amount": 50001,
+   "transactions": 1
+  },
+  {
+   "ticker": "FWONK",
+   "company": "Liberty Media Corporation",
+   "weight": 0.07555130513051306,
+   "baseWeight": 0.07555130513051306,
+   "amount": 47005,
+   "transactions": 5
+  },
+  {
    "ticker": "LTH",
    "company": "Life Time Group Holdings, Inc.",
-   "weight": 0.031144289709012625,
-   "baseWeight": 0.031144289709012625,
-   "amount": 36008,
-   "transactions": 8
+   "weight": 0.05626687668766877,
+   "baseWeight": 0.05626687668766877,
+   "amount": 35007,
+   "transactions": 7
   },
   {
    "ticker": "CHRW",
    "company": "C.H. Robinson Worldwide, Inc.",
-   "weight": 0.028546914070372187,
-   "baseWeight": 0.028546914070372187,
-   "amount": 33005,
-   "transactions": 5
-  },
-  {
-   "ticker": "BRK.B",
-   "company": "Berkshire Hathaway Inc. New",
-   "weight": 0.016437936734053124,
-   "baseWeight": 0.016437936734053124,
-   "amount": 19005,
-   "transactions": 5
+   "weight": 0.05144014401440144,
+   "baseWeight": 0.05144014401440144,
+   "amount": 32004,
+   "transactions": 4
   },
   {
    "ticker": "HUBB",
    "company": "Hubbell Inc",
-   "weight": 0.015572144854506313,
-   "baseWeight": 0.015572144854506313,
+   "weight": 0.028937893789378936,
+   "baseWeight": 0.028937893789378936,
    "amount": 18004,
    "transactions": 4
   },
   {
    "ticker": "MSFT",
    "company": "Microsoft Corporation",
-   "weight": 0.0147063529749595,
-   "baseWeight": 0.0147063529749595,
+   "weight": 0.02732898289828983,
+   "baseWeight": 0.02732898289828983,
    "amount": 17003,
    "transactions": 3
   },
   {
    "ticker": "SNOW",
    "company": "Snowflake Inc.",
-   "weight": 0.0147063529749595,
-   "baseWeight": 0.0147063529749595,
+   "weight": 0.02732898289828983,
+   "baseWeight": 0.02732898289828983,
    "amount": 17003,
    "transactions": 3
   },
   {
    "ticker": "ALKS",
    "company": "Alkermes plc",
-   "weight": 0.013840561095412688,
-   "baseWeight": 0.013840561095412688,
+   "weight": 0.02572007200720072,
+   "baseWeight": 0.02572007200720072,
    "amount": 16002,
    "transactions": 2
   },
   {
    "ticker": "GMED",
    "company": "Globus Medical, Inc.",
-   "weight": 0.013840561095412688,
-   "baseWeight": 0.013840561095412688,
+   "weight": 0.02572007200720072,
+   "baseWeight": 0.02572007200720072,
    "amount": 16002,
    "transactions": 2
   },
   {
    "ticker": "MOG.A",
    "company": "Moog Inc.",
-   "weight": 0.013840561095412688,
-   "baseWeight": 0.013840561095412688,
+   "weight": 0.02572007200720072,
+   "baseWeight": 0.02572007200720072,
    "amount": 16002,
    "transactions": 2
   },
   {
    "ticker": "NXPI",
    "company": "NXP Semiconductors N.V.",
-   "weight": 0.013840561095412688,
-   "baseWeight": 0.013840561095412688,
+   "weight": 0.02572007200720072,
+   "baseWeight": 0.02572007200720072,
    "amount": 16002,
    "transactions": 2
   },
   {
    "ticker": "MSB",
    "company": "Mesabi Trust",
-   "weight": 0.012974769215865874,
-   "baseWeight": 0.012974769215865874,
+   "weight": 0.024111161116111612,
+   "baseWeight": 0.024111161116111612,
+   "amount": 15001,
+   "transactions": 1
+  },
+  {
+   "ticker": "ETN",
+   "company": "Eaton Corporation, PLC",
+   "weight": 0.024111161116111612,
+   "baseWeight": 0.024111161116111612,
+   "amount": 15001,
+   "transactions": 1
+  },
+  {
+   "ticker": "PWR",
+   "company": "Quanta Services, Inc.",
+   "weight": 0.024111161116111612,
+   "baseWeight": 0.024111161116111612,
    "amount": 15001,
    "transactions": 1
   }
