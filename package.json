@@ -10,5 +10,5 @@
     "update": "node src/fetch-house.mjs && node src/compute.mjs",
     "test": "node src/test.mjs"
   },
-  "dependencies": { "pdfjs-dist": "3.11.174" }
+  "dependencies": { "pdfjs-dist": "4.2.67" }
 }
