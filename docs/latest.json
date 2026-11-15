@@ -2,11 +2,11 @@
  "schema": 1,
  "source": "Eigen berekening",
  "disclaimer": "Eigen benadering op basis van officiële meldingen. GEEN officiële Quiver-ranglijst.",
- "generatedAt": "2026-11-14T13:44:07.214Z",
- "asOf": "2026-11-14",
+ "generatedAt": "2026-11-15T14:12:36.553Z",
+ "asOf": "2026-11-15",
  "latestPublished": "2026-11-12",
  "latestTrade": "2026-11-05",
- "sourceCheckedAt": "2026-11-14T13:44:07.163Z",
+ "sourceCheckedAt": "2026-11-15T14:12:36.478Z",
  "coverage": {
   "huis": true,
   "senaat": false
@@ -26,9 +26,9 @@
  },
  "stats": {
   "tickers": 127,
-  "transactions": 165,
+  "transactions": 164,
   "duplicatesRemoved": 16,
-  "totalAmount": 536165
+  "totalAmount": 535164
  },
  "stability": {
   "variants": 15,
@@ -38,16 +38,16 @@
   {
    "ticker": "DDOG",
    "company": "Datadog, Inc.",
-   "weight": 0.09325673999608329,
-   "baseWeight": 0.09325673999608329,
+   "weight": 0.0934311725003924,
+   "baseWeight": 0.0934311725003924,
    "amount": 50001,
    "transactions": 1
   },
   {
    "ticker": "EL",
    "company": "Estee Lauder Companies, Inc.",
-   "weight": 0.09325673999608329,
-   "baseWeight": 0.09325673999608329,
+   "weight": 0.0934311725003924,
+   "baseWeight": 0.0934311725003924,
    "amount": 50001,
    "transactions": 1
   }
@@ -56,120 +56,120 @@
   {
    "ticker": "DDOG",
    "company": "Datadog, Inc.",
-   "weight": 0.09325673999608329,
-   "baseWeight": 0.09325673999608329,
+   "weight": 0.0934311725003924,
+   "baseWeight": 0.0934311725003924,
    "amount": 50001,
    "transactions": 1
   },
   {
    "ticker": "EL",
    "company": "Estee Lauder Companies, Inc.",
-   "weight": 0.09325673999608329,
-   "baseWeight": 0.09325673999608329,
+   "weight": 0.0934311725003924,
+   "baseWeight": 0.0934311725003924,
    "amount": 50001,
    "transactions": 1
   },
   {
    "ticker": "MBGL",
    "company": "Mobility Global Inc.",
-   "weight": 0.09325673999608329,
-   "baseWeight": 0.09325673999608329,
+   "weight": 0.0934311725003924,
+   "baseWeight": 0.0934311725003924,
    "amount": 50001,
    "transactions": 1
   },
   {
    "ticker": "MSFT",
    "company": "Microsoft Corporation",
-   "weight": 0.03171225275801293,
-   "baseWeight": 0.03171225275801293,
+   "weight": 0.031771569089101656,
+   "baseWeight": 0.031771569089101656,
    "amount": 17003,
    "transactions": 3
   },
   {
    "ticker": "ARGX",
    "company": "argenx SE",
-   "weight": 0.03171225275801293,
-   "baseWeight": 0.03171225275801293,
+   "weight": 0.031771569089101656,
+   "baseWeight": 0.031771569089101656,
    "amount": 17003,
    "transactions": 3
   },
   {
    "ticker": "ETN",
    "company": "Eaton Corporation, PLC",
-   "weight": 0.029845290162543246,
-   "baseWeight": 0.029845290162543246,
+   "weight": 0.02990111442473709,
+   "baseWeight": 0.02990111442473709,
    "amount": 16002,
    "transactions": 2
   },
   {
    "ticker": "GMED",
    "company": "Globus Medical, Inc.",
-   "weight": 0.029845290162543246,
-   "baseWeight": 0.029845290162543246,
+   "weight": 0.02990111442473709,
+   "baseWeight": 0.02990111442473709,
    "amount": 16002,
    "transactions": 2
   },
   {
    "ticker": "HUBB",
    "company": "Hubbell Inc",
-   "weight": 0.029845290162543246,
-   "baseWeight": 0.029845290162543246,
+   "weight": 0.02990111442473709,
+   "baseWeight": 0.02990111442473709,
    "amount": 16002,
    "transactions": 2
   },
   {
    "ticker": "SNOW",
    "company": "Snowflake Inc.",
-   "weight": 0.029845290162543246,
-   "baseWeight": 0.029845290162543246,
+   "weight": 0.02990111442473709,
+   "baseWeight": 0.02990111442473709,
    "amount": 16002,
    "transactions": 2
   },
   {
    "ticker": "BHE",
    "company": "Benchmark Electronics, Inc.",
-   "weight": 0.029845290162543246,
-   "baseWeight": 0.029845290162543246,
+   "weight": 0.02990111442473709,
+   "baseWeight": 0.02990111442473709,
    "amount": 16002,
    "transactions": 2
   },
   {
    "ticker": "NXPI",
    "company": "NXP Semiconductors N.V.",
-   "weight": 0.029845290162543246,
-   "baseWeight": 0.029845290162543246,
+   "weight": 0.02990111442473709,
+   "baseWeight": 0.02990111442473709,
    "amount": 16002,
    "transactions": 2
   },
   {
    "ticker": "ON",
    "company": "ON Semiconductor Corporation",
-   "weight": 0.029845290162543246,
-   "baseWeight": 0.029845290162543246,
+   "weight": 0.02990111442473709,
+   "baseWeight": 0.02990111442473709,
    "amount": 16002,
    "transactions": 2
   },
   {
    "ticker": "PWR",
    "company": "Quanta Services, Inc.",
-   "weight": 0.02797832756707357,
-   "baseWeight": 0.02797832756707357,
+   "weight": 0.02803065976037252,
+   "baseWeight": 0.02803065976037252,
    "amount": 15001,
    "transactions": 1
   },
   {
    "ticker": "MRK",
    "company": "Merck & Company, Inc.",
-   "weight": 0.02797832756707357,
-   "baseWeight": 0.02797832756707357,
+   "weight": 0.02803065976037252,
+   "baseWeight": 0.02803065976037252,
    "amount": 15001,
    "transactions": 1
   },
   {
    "ticker": "CACI",
    "company": "CACI International, Inc.",
-   "weight": 0.02797832756707357,
-   "baseWeight": 0.02797832756707357,
+   "weight": 0.02803065976037252,
+   "baseWeight": 0.02803065976037252,
    "amount": 15001,
    "transactions": 1
   }
