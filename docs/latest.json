@@ -2,18 +2,18 @@
  "schema": 1,
  "source": "Eigen berekening",
  "disclaimer": "Eigen benadering op basis van officiële meldingen. GEEN officiële Quiver-ranglijst.",
- "generatedAt": "2026-11-24T18:05:46.991Z",
- "asOf": "2026-11-24",
+ "generatedAt": "2026-11-25T17:29:51.686Z",
+ "asOf": "2026-11-25",
  "latestPublished": "2026-11-23",
  "latestTrade": "2026-11-16",
- "sourceCheckedAt": "2026-11-24T18:05:46.920Z",
+ "sourceCheckedAt": "2026-11-25T17:29:51.629Z",
  "coverage": {
   "huis": true,
   "senaat": false
  },
  "warnings": [
   "Senaat ontbreekt: alleen Huis-meldingen zijn meegeteld. De echte lijst bevat ook Senaatsaankopen.",
-  "39 House-melding(en) konden niet gelezen worden (gescand of fout); hun aankopen ontbreken."
+  "37 House-melding(en) konden niet gelezen worden (gescand of fout); hun aankopen ontbreken."
  ],
  "parameters": {
   "windowDays": 90,
@@ -25,29 +25,29 @@
   "status": "indicatief gekalibreerd op 1 ongedateerde Quiver-momentopname (top 4 binnen 0,1 pt); niet bevestigd"
  },
  "stats": {
-  "tickers": 105,
-  "transactions": 138,
-  "duplicatesRemoved": 14,
-  "totalAmount": 467138
+  "tickers": 101,
+  "transactions": 131,
+  "duplicatesRemoved": 13,
+  "totalAmount": 418131
  },
  "stability": {
   "variants": 15,
-  "sameTop2": 6
+  "sameTop2": 7
  },
  "top2": [
   {
    "ticker": "DDOG",
    "company": "Datadog, Inc.",
-   "weight": 0.10917972847424101,
-   "baseWeight": 0.10917972847424101,
+   "weight": 0.12197612709892354,
+   "baseWeight": 0.12197612709892354,
    "amount": 51002,
    "transactions": 2
   },
   {
    "ticker": "EL",
    "company": "Estee Lauder Companies, Inc.",
-   "weight": 0.10917972847424101,
-   "baseWeight": 0.10917972847424101,
+   "weight": 0.12197612709892354,
+   "baseWeight": 0.12197612709892354,
    "amount": 51002,
    "transactions": 2
   }
@@ -56,122 +56,122 @@
   {
    "ticker": "DDOG",
    "company": "Datadog, Inc.",
-   "weight": 0.10917972847424101,
-   "baseWeight": 0.10917972847424101,
+   "weight": 0.12197612709892354,
+   "baseWeight": 0.12197612709892354,
    "amount": 51002,
    "transactions": 2
   },
   {
    "ticker": "EL",
    "company": "Estee Lauder Companies, Inc.",
-   "weight": 0.10917972847424101,
-   "baseWeight": 0.10917972847424101,
+   "weight": 0.12197612709892354,
+   "baseWeight": 0.12197612709892354,
    "amount": 51002,
    "transactions": 2
   },
   {
    "ticker": "MBGL",
    "company": "Mobility Global Inc.",
-   "weight": 0.10703689273833428,
-   "baseWeight": 0.10703689273833428,
+   "weight": 0.11958214052533775,
+   "baseWeight": 0.11958214052533775,
    "amount": 50001,
    "transactions": 1
   },
   {
-   "ticker": "PLD",
-   "company": "Prologis, Inc.",
-   "weight": 0.03639823777984236,
-   "baseWeight": 0.03639823777984236,
-   "amount": 17003,
-   "transactions": 3
-  },
-  {
    "ticker": "ARGX",
    "company": "argenx SE",
-   "weight": 0.03639823777984236,
-   "baseWeight": 0.03639823777984236,
+   "weight": 0.04066428942125793,
+   "baseWeight": 0.04066428942125793,
    "amount": 17003,
    "transactions": 3
-  },
-  {
-   "ticker": "ETN",
-   "company": "Eaton Corporation, PLC",
-   "weight": 0.03425540204393562,
-   "baseWeight": 0.03425540204393562,
-   "amount": 16002,
-   "transactions": 2
   },
   {
    "ticker": "SNOW",
    "company": "Snowflake Inc.",
-   "weight": 0.03425540204393562,
-   "baseWeight": 0.03425540204393562,
+   "weight": 0.03827030284767214,
+   "baseWeight": 0.03827030284767214,
    "amount": 16002,
    "transactions": 2
   },
   {
    "ticker": "BHE",
    "company": "Benchmark Electronics, Inc.",
-   "weight": 0.03425540204393562,
-   "baseWeight": 0.03425540204393562,
+   "weight": 0.03827030284767214,
+   "baseWeight": 0.03827030284767214,
    "amount": 16002,
    "transactions": 2
   },
   {
    "ticker": "NXPI",
    "company": "NXP Semiconductors N.V.",
-   "weight": 0.03425540204393562,
-   "baseWeight": 0.03425540204393562,
+   "weight": 0.03827030284767214,
+   "baseWeight": 0.03827030284767214,
    "amount": 16002,
    "transactions": 2
   },
   {
    "ticker": "ON",
    "company": "ON Semiconductor Corporation",
-   "weight": 0.03425540204393562,
-   "baseWeight": 0.03425540204393562,
+   "weight": 0.03827030284767214,
+   "baseWeight": 0.03827030284767214,
    "amount": 16002,
    "transactions": 2
   },
   {
-   "ticker": "PWR",
-   "company": "Quanta Services, Inc.",
-   "weight": 0.03211256630802889,
-   "baseWeight": 0.03211256630802889,
-   "amount": 15001,
-   "transactions": 1
-  },
-  {
    "ticker": "CACI",
    "company": "CACI International, Inc.",
-   "weight": 0.03211256630802889,
-   "baseWeight": 0.03211256630802889,
+   "weight": 0.03587631627408635,
+   "baseWeight": 0.03587631627408635,
    "amount": 15001,
    "transactions": 1
   },
   {
    "ticker": "OLN",
    "company": "Olin Corporation",
-   "weight": 0.03211256630802889,
-   "baseWeight": 0.03211256630802889,
+   "weight": 0.03587631627408635,
+   "baseWeight": 0.03587631627408635,
    "amount": 15001,
    "transactions": 1
   },
   {
    "ticker": "RIG",
    "company": "Transocean Ltd",
-   "weight": 0.03211256630802889,
-   "baseWeight": 0.03211256630802889,
+   "weight": 0.03587631627408635,
+   "baseWeight": 0.03587631627408635,
    "amount": 15001,
    "transactions": 1
   },
   {
    "ticker": "NOKBF",
    "company": "NOKIA A SHS",
-   "weight": 0.03211256630802889,
-   "baseWeight": 0.03211256630802889,
+   "weight": 0.03587631627408635,
+   "baseWeight": 0.03587631627408635,
    "amount": 15001,
    "transactions": 1
+  },
+  {
+   "ticker": "GH",
+   "company": "Guardant Health, Inc.",
+   "weight": 0.03587631627408635,
+   "baseWeight": 0.03587631627408635,
+   "amount": 15001,
+   "transactions": 1
+  },
+  {
+   "ticker": "MSFT",
+   "company": "Microsoft Corporation",
+   "weight": 0.00718195972075737,
+   "baseWeight": 0.00718195972075737,
+   "amount": 3003,
+   "transactions": 3
+  },
+  {
+   "ticker": "T",
+   "company": "AT&T Inc.",
+   "weight": 0.00718195972075737,
+   "baseWeight": 0.00718195972075737,
+   "amount": 3003,
+   "transactions": 3
   }
  ],
  "detailUrl": "https://leonprnd.github.io/congress-buys-tracker/"
