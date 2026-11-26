@@ -2,11 +2,11 @@
  "schema": 1,
  "source": "Eigen berekening",
  "disclaimer": "Eigen benadering op basis van officiële meldingen. GEEN officiële Quiver-ranglijst.",
- "generatedAt": "2026-11-25T17:29:51.686Z",
- "asOf": "2026-11-25",
+ "generatedAt": "2026-11-26T17:12:02.525Z",
+ "asOf": "2026-11-26",
  "latestPublished": "2026-11-23",
  "latestTrade": "2026-11-16",
- "sourceCheckedAt": "2026-11-25T17:29:51.629Z",
+ "sourceCheckedAt": "2026-11-26T17:12:02.474Z",
  "coverage": {
   "huis": true,
   "senaat": false
